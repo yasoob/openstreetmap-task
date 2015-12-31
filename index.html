@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenStreetMap Api Usage Example</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h2>OpenStreetMap</h2>
+		<p>Hi folks. In this example we will be using OpenStreetMap Api to search for the co-ordinates of a location by using it's zip code.<br><br>This example does not work well with other countries so kindly select US from the drop-down menu.</p>
+
+		<p>For testing it right away you can use 10101 as zip code and US as country</p>
+		<form action"" method="POST">
+			<label for="postalcode">Enter your zip code:</label>
+			<br>
+			<br>
+			<input name="postalcode" type="text" id="postalcode" maxlength=12>
+			<br>
+			<select name="country" id="country">
+	 			<option value="us">United States</option>
+				<option value="pk">Pakistan</option>
+				<option value="in">India</option>
+	 			<option value="sl">Sri Lanka</option>
+	        </select>
+			<br>
+			<div class="btn">
+				<a href="#" id="search" >Search</a>
+			</div>
+		</form>
+	</div>
+	<div class="result">
+		<p id="lat"><b>Latitude:</b></p>
+		<p id="long"><b>Longitude:</b></p>
+		<p id="addr"><b>Address:</b></p>
+	</div>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
