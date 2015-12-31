@@ -1,0 +1,1 @@
+This is a sample web application for showing the capabilities of the openstreetmap api.
