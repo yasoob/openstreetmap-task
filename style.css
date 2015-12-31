@@ -1,5 +1,6 @@
 body{
 	background-image: url("http://2.bp.blogspot.com/-QWngnZFGpzA/UL74YD87bBI/AAAAAAAAB6g/JlP-RQCO2GM/s1600/Bulgaria+Trakiya+highway+-+zoomed+in+2+(bigger).png");
+	background-size: cover;
 }
 .wrapper{
 	width: 400px;
